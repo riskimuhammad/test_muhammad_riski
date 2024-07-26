@@ -37,9 +37,9 @@ class SplashScreen extends StatelessWidget {
     return Positioned(
       top: -30,
       left: 60,
-      child: Image.asset(MaterialImage.bgDecorationTopLeft),
       height: 152,
       width: 151,
+      child: Image.asset(MaterialImage.bgDecorationTopLeft),
     );
   }
 
@@ -47,9 +47,9 @@ class SplashScreen extends StatelessWidget {
     return Positioned(
       top: 0,
       left: -30,
-      child: Image.asset(MaterialImage.bgDecorationLeft),
       height: 332,
       width: 244,
+      child: Image.asset(MaterialImage.bgDecorationLeft),
     );
   }
 
@@ -57,9 +57,9 @@ class SplashScreen extends StatelessWidget {
     return Positioned(
       bottom: 50,
       right: -40,
-      child: Image.asset(MaterialImage.bgDecorationBottomRight1),
       height: 332,
       width: 244,
+      child: Image.asset(MaterialImage.bgDecorationBottomRight1),
     );
   }
 
@@ -67,9 +67,9 @@ class SplashScreen extends StatelessWidget {
     return Positioned(
       bottom: -40,
       right: 0,
-      child: Image.asset(MaterialImage.bgDecorationBottomRight2),
       height: 102,
       width: 101,
+      child: Image.asset(MaterialImage.bgDecorationBottomRight2),
     );
   }
 
@@ -81,7 +81,7 @@ class SplashScreen extends StatelessWidget {
         left: 0,
         child: Container(
             height: 89,
-            margin: EdgeInsets.only(left: 49, right: 49),
+            margin: const EdgeInsets.only(left: 49, right: 49),
             child: Image.asset(MaterialImage.logoOnePay)));
   }
 
@@ -94,7 +94,7 @@ class SplashScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(height: 15.47, child: Image.asset(MaterialImage.ojkLps)),
-          SizedBox(height: 27),
+          const SizedBox(height: 27),
           Text(
             'Powered by Bank DKI\n2023',
             textAlign: TextAlign.center,

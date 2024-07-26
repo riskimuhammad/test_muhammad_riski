@@ -27,8 +27,10 @@ class MaterialTextStyle {
       GoogleFonts.nunito(fontSize: 16, fontWeight: FontWeight.w500);
   TextStyle textStyleSZ11Black =
       GoogleFonts.nunito(fontSize: 11, fontWeight: FontWeight.w700);
+  TextStyle textStyleSZ8Black =
+      GoogleFonts.nunito(fontSize: 8, fontWeight: FontWeight.w700);
   TextStyle textStyleSZ12White = GoogleFonts.nunito(
-      fontWeight: FontWeight.w800,
+      fontWeight: FontWeight.w500,
       fontSize: 12,
       color: MaterialColorJakOnePay.white);
 

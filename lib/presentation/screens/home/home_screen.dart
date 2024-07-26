@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_muhammad_riski/core/material/material_color.dart';
 import 'package:test_muhammad_riski/presentation/screens/home/widgets/header_widget.dart';
+import 'package:test_muhammad_riski/presentation/screens/home/widgets/menu_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,6 +9,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final header = HomeHeader();
+    final menu = HomeMenuWidget();
     return Scaffold(
       backgroundColor: MaterialColorJakOnePay.white,
       body: Stack(
@@ -18,7 +20,7 @@ class HomeScreen extends StatelessWidget {
             top: 0,
             bottom: 0,
             child: Column(
-              children: [header.header(context)],
+              children: [header.header(context), menu.menu(context)],
             ),
           )
         ],
