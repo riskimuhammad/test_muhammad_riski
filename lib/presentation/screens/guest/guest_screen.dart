@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:test_muhammad_riski/core/material/material_color.dart';
 import 'package:test_muhammad_riski/core/material/material_image.dart';
 import 'package:test_muhammad_riski/core/material/material_text_style.dart';
+import 'package:test_muhammad_riski/presentation/controller/guest_controller.dart';
 
 class GuestScreen extends StatelessWidget {
   const GuestScreen({super.key});
@@ -128,6 +130,7 @@ class GuestScreen extends StatelessWidget {
     return Column(
       children: [
         GestureDetector(
+          onTap: () => Get.find<GuestController>().navToHomeScreen(),
           child: Container(
             width: double.infinity,
             margin: EdgeInsets.only(left: 50, right: 50),

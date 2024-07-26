@@ -25,6 +25,8 @@ class MaterialTextStyle {
       GoogleFonts.nunito(fontSize: 13, fontWeight: FontWeight.w500);
   TextStyle textStyleSZ16Black =
       GoogleFonts.nunito(fontSize: 16, fontWeight: FontWeight.w500);
+  TextStyle textStyleSZ11Black =
+      GoogleFonts.nunito(fontSize: 11, fontWeight: FontWeight.w700);
   TextStyle textStyleSZ12White = GoogleFonts.nunito(
       fontWeight: FontWeight.w800,
       fontSize: 12,

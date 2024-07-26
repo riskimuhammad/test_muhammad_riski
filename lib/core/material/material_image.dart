@@ -15,6 +15,9 @@ class MaterialImage {
 
   //ICONS
   static const creditCard = "assets/icons/credit_card_icon.png";
+  static const report = "assets/icons/report_icon.png";
+  static const notification = "assets/icons/notification_icon.png";
+  static const profile = "assets/icons/profile_icon.png";
 
   //LOGO
   static const jakCardLogo = "assets/logo/jakcard_logo.png";
