@@ -7,5 +7,5 @@ import 'core/utils/http_overrides.dart';
 void main() {
   HttpOverrides.global = MyHttpOverrides();
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(JakOnePay());
+  runApp(const JakOnePay());
 }

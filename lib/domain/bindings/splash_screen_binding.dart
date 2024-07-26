@@ -4,6 +4,6 @@ import 'package:test_muhammad_riski/presentation/controller/splash_screen_contro
 class SplashScreenBinding implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut<SplashScreenController>(() => SplashScreenController());
+    Get.put<SplashScreenController>(SplashScreenController());
   }
 }

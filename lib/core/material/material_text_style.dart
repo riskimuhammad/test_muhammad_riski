@@ -4,12 +4,16 @@ import 'package:test_muhammad_riski/core/material/material_color.dart';
 
 class MaterialTextStyle {
   TextStyle textStyleSZ24White = GoogleFonts.nunito(
-    fontWeight: FontWeight.w700,
-    fontSize: 24,
-  );
+      fontWeight: FontWeight.w700,
+      fontSize: 24,
+      color: MaterialColorJakOnePay.white);
   TextStyle textStyleSZ24Primary = GoogleFonts.nunito(
       fontWeight: FontWeight.w700,
       fontSize: 24,
+      color: MaterialColorJakOnePay.primary);
+  TextStyle textStyleSZ15Primary = GoogleFonts.nunito(
+      fontWeight: FontWeight.w700,
+      fontSize: 15,
       color: MaterialColorJakOnePay.primary);
   TextStyle textStyleSZ18White = GoogleFonts.nunito(
       fontWeight: FontWeight.w700,
@@ -25,4 +29,11 @@ class MaterialTextStyle {
       fontWeight: FontWeight.w800,
       fontSize: 12,
       color: MaterialColorJakOnePay.white);
+
+  TextStyle textStyleSZ11White = GoogleFonts.nunito(
+      fontWeight: FontWeight.w400,
+      fontSize: 11,
+      color: MaterialColorJakOnePay.white);
 }
+
+MaterialTextStyle materialTextStyle = MaterialTextStyle();

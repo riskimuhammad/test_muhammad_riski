@@ -10,11 +10,11 @@ class AppPages {
   static final pages = [
     GetPage(
         name: AppRoutes.initial,
-        page: () => SplashScreen(),
+        page: () => const SplashScreen(),
         binding: SplashScreenBinding()),
     GetPage(
-        name: AppRoutes.initial,
-        page: () => GuestScreen(),
+        name: AppRoutes.guest,
+        page: () => const GuestScreen(),
         binding: GuestBinding()),
   ];
 }
